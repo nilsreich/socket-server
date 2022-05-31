@@ -5,7 +5,7 @@ const server = http.createServer(app);
 const { Server } = require("socket.io");
 const io = new Server(server, {
   cors: {
-    origin: "https://nilsreich-socketio-x5qjg5g36wgv-3000.githubpreview.dev",
+    origin: "https://socket-client-iota.vercel.app/",
     methods: ["GET", "POST"],
     allowedHeaders: ["my-custom-header"],
     credentials: true
